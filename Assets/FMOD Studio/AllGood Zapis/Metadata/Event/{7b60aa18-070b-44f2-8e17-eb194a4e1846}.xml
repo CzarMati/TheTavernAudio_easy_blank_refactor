@@ -5,7 +5,7 @@
 			<value>Ambient_forest</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ccbc7025-ec99-480b-a7c4-3dd8674db73e}</destination>
@@ -173,7 +173,6 @@
 	<object class="MixerBusEffectChain" id="{4bc3d28f-a723-42be-940a-8ce4df01dd95}">
 		<relationship name="effects">
 			<destination>{e10a746f-4b65-4683-9c81-5edfbf7ca02b}</destination>
-			<destination>{1e60f1e6-e9d1-4c05-8349-928a4cb7b9fe}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b3b51487-e457-4281-9029-e13ea2dc7bda}" />
@@ -204,12 +203,10 @@
 		<relationship name="effects">
 			<destination>{1bada248-15e8-4b2e-8fd9-31d37bbb5598}</destination>
 			<destination>{56a7b8d7-efef-4530-8153-f40e4886888f}</destination>
-			<destination>{a4e18ce6-af58-4318-96bf-f7828672077e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2a4a7395-950c-4aba-9fe3-07dd2d82520e}" />
 	<object class="MixerBusFader" id="{e10a746f-4b65-4683-9c81-5edfbf7ca02b}" />
-	<object class="SpatialiserEffect" id="{1e60f1e6-e9d1-4c05-8349-928a4cb7b9fe}" />
 	<object class="AutomationPoint" id="{b2e5ec18-07ee-4349-90d1-6ded99e2d2cf}">
 		<property name="position">
 			<value>44.5</value>
@@ -263,5 +260,4 @@
 			<value>-9.00853348</value>
 		</property>
 	</object>
-	<object class="SpatialiserEffect" id="{a4e18ce6-af58-4318-96bf-f7828672077e}" />
 </objects>
