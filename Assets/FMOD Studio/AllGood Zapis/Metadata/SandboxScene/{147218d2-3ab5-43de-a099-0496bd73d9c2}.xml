@@ -19,30 +19,31 @@
 		<relationship name="emitters">
 			<destination>{27a85e85-9998-4132-84c3-f4f8442ca1dd}</destination>
 			<destination>{18b87ae1-07d4-4095-8c1f-8327fd47eac6}</destination>
+			<destination>{ad712d49-9589-431f-9992-bfca9221f1f5}</destination>
 		</relationship>
 	</object>
 	<object class="MarkerTrack" id="{052aa33c-db95-46de-94ac-03cb2c141ef3}" />
 	<object class="Timeline" id="{b19d38a1-5a5a-465f-bf02-1753c019172c}" />
 	<object class="SandboxListener" id="{cc1ecfd2-0667-46c2-96f3-fe4e6d12771f}">
 		<property name="positionX">
-			<value>-4.625</value>
+			<value>-10.3000002</value>
 		</property>
 		<property name="positionZ">
-			<value>2.5999999</value>
+			<value>1.45000017</value>
 		</property>
 		<property name="rotationY">
-			<value>17.0119076</value>
+			<value>-135.07222</value>
 		</property>
 	</object>
 	<object class="SandboxEmitter" id="{27a85e85-9998-4132-84c3-f4f8442ca1dd}">
 		<property name="positionX">
-			<value>-10.4000006</value>
+			<value>-5.82500172</value>
 		</property>
 		<property name="positionZ">
-			<value>0.74999994</value>
+			<value>2.5</value>
 		</property>
 		<property name="rotationY">
-			<value>96.8679047</value>
+			<value>-47.5895729</value>
 		</property>
 		<relationship name="event">
 			<destination>{7b60aa18-070b-44f2-8e17-eb194a4e1846}</destination>
@@ -50,16 +51,30 @@
 	</object>
 	<object class="SandboxEmitter" id="{18b87ae1-07d4-4095-8c1f-8327fd47eac6}">
 		<property name="positionX">
-			<value>-7.07499981</value>
+			<value>-8.19999981</value>
 		</property>
 		<property name="positionZ">
-			<value>6.6500001</value>
+			<value>3.22500038</value>
 		</property>
 		<property name="rotationY">
-			<value>-10.9989204</value>
+			<value>160.75206</value>
 		</property>
 		<relationship name="event">
 			<destination>{f17fe702-7b00-40cb-8a68-6e760f73e52c}</destination>
+		</relationship>
+	</object>
+	<object class="SandboxEmitter" id="{ad712d49-9589-431f-9992-bfca9221f1f5}">
+		<property name="positionX">
+			<value>-6.4749999</value>
+		</property>
+		<property name="positionZ">
+			<value>4.79999971</value>
+		</property>
+		<property name="rotationY">
+			<value>177.701996</value>
+		</property>
+		<relationship name="event">
+			<destination>{e17ce4d3-ce0a-4f25-b129-992268d3c39f}</destination>
 		</relationship>
 	</object>
 </objects>
