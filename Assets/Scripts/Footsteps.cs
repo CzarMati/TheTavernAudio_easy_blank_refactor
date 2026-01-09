@@ -168,6 +168,7 @@ public class Footsteps : MonoBehaviour
             soundInstance.start();
             soundInstance.release();
         }
+        Debug.Log("Floor" + surfaceParameter);
     }
 
     /// <summary>

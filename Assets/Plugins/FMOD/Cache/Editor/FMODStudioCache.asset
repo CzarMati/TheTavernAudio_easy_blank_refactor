@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/FMOD Studio/AllGood Zapis/Build/Desktop/Ambients.bank
   Name: Ambients
   StudioPath: bank:/Ambients
-  lastModified: 639015038384620430
+  lastModified: 639035772715773730
   FileSizes:
   - Name: Desktop
     Value: 5848064
@@ -35,7 +35,7 @@ MonoBehaviour:
   Path: Assets/FMOD Studio/AllGood Zapis/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639015038395726858
+  lastModified: 639035772726843207
   FileSizes:
   - Name: Desktop
     Value: 976896
@@ -82,10 +82,10 @@ MonoBehaviour:
   Path: Assets/FMOD Studio/AllGood Zapis/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639015057779038828
+  lastModified: 639035772715829211
   FileSizes:
   - Name: Desktop
-    Value: 1662
+    Value: 1704
   Exists: 1
 --- !u!114 &-6693314253664411234
 MonoBehaviour:
@@ -128,10 +128,10 @@ MonoBehaviour:
   Path: Assets/FMOD Studio/AllGood Zapis/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639015057779018777
+  lastModified: 639035772715819164
   FileSizes:
   - Name: Desktop
-    Value: 3276
+    Value: 3406
   Exists: 1
 --- !u!114 &-5890595715823175704
 MonoBehaviour:
@@ -366,10 +366,10 @@ MonoBehaviour:
   Path: Assets/FMOD Studio/AllGood Zapis/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639015038396714417
+  lastModified: 639035800435799951
   FileSizes:
   - Name: Desktop
-    Value: 105152
+    Value: 104960
   Exists: 1
 --- !u!114 &-268283633535004127
 MonoBehaviour:
@@ -432,7 +432,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -7007987892325362052}
   cacheVersion: 131856
-  cacheTime: 639015057779038828
+  cacheTime: 639035800435799951
   SerializableEventsDict:
   - key: event:/Ambients/Ambient_tavern
     index: 0
@@ -534,4 +534,4 @@ MonoBehaviour:
   - {fileID: 4324593864748127832}
   MinDistance: 1
   MaxDistance: 20
-  Length: 500
+  Length: 600
