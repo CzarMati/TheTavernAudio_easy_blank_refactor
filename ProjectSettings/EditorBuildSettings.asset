@@ -4,5 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/FantasyEnvironments/Environments/Scenes/AudioSettings.unity
+    guid: e4871d61947828148b2f4d491c70027c
+  - enabled: 1
+    path: Assets/FantasyEnvironments/Environments/Scenes/DemoScene_edit.unity
+    guid: 63fb3e28c0e6dff44b641a06f56ac6b8
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

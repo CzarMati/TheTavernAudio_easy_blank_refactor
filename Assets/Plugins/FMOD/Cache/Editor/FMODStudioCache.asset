@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/FMOD Studio/AllGood Zapis/Build/Desktop/Ambients.bank
   Name: Ambients
   StudioPath: bank:/Ambients
-  lastModified: 639035772715773730
+  lastModified: 639039193608837199
   FileSizes:
   - Name: Desktop
     Value: 5848064
@@ -35,38 +35,11 @@ MonoBehaviour:
   Path: Assets/FMOD Studio/AllGood Zapis/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639035772726843207
+  lastModified: 639039193619407782
   FileSizes:
   - Name: Desktop
     Value: 976896
   Exists: 1
---- !u!114 &-7171939887841785737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/Inside
-  m_EditorClassIdentifier: 
-  Path: snapshot:/Inside
-  Guid:
-    Data1: 99548143
-    Data2: 1078695146
-    Data3: 538479532
-    Data4: 1543645845
-  Banks:
-  - {fileID: -6647798358694342193}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
 --- !u!114 &-7007987892325362052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82,10 +55,10 @@ MonoBehaviour:
   Path: Assets/FMOD Studio/AllGood Zapis/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639035772715829211
+  lastModified: 639039220502839758
   FileSizes:
   - Name: Desktop
-    Value: 1704
+    Value: 1866
   Exists: 1
 --- !u!114 &-6693314253664411234
 MonoBehaviour:
@@ -128,10 +101,10 @@ MonoBehaviour:
   Path: Assets/FMOD Studio/AllGood Zapis/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639035772715819164
+  lastModified: 639039220502820222
   FileSizes:
   - Name: Desktop
-    Value: 3406
+    Value: 3312
   Exists: 1
 --- !u!114 &-5890595715823175704
 MonoBehaviour:
@@ -366,10 +339,10 @@ MonoBehaviour:
   Path: Assets/FMOD Studio/AllGood Zapis/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639035800435799951
+  lastModified: 639039198398215903
   FileSizes:
   - Name: Desktop
-    Value: 104960
+    Value: 105152
   Exists: 1
 --- !u!114 &-268283633535004127
 MonoBehaviour:
@@ -424,15 +397,14 @@ MonoBehaviour:
   - {fileID: -4177417375144234007}
   - {fileID: -5140197435272128845}
   - {fileID: 5309959270420594672}
-  - {fileID: 2656009000602804623}
-  - {fileID: -7171939887841785737}
+  - {fileID: 9150713709428858962}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6647798358694342193}
   StringsBanks:
   - {fileID: -7007987892325362052}
   cacheVersion: 131856
-  cacheTime: 639035800435799951
+  cacheTime: 639039220502839758
   SerializableEventsDict:
   - key: event:/Ambients/Ambient_tavern
     index: 0
@@ -450,37 +422,8 @@ MonoBehaviour:
     index: 6
   - key: event:/Footsteps/Footsteps
     index: 7
-  - key: snapshot:/Outside
+  - key: snapshot:/Teste
     index: 8
-  - key: snapshot:/Inside
-    index: 9
---- !u!114 &2656009000602804623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/Outside
-  m_EditorClassIdentifier: 
-  Path: snapshot:/Outside
-  Guid:
-    Data1: 849331537
-    Data2: 1233143793
-    Data3: 1510570402
-    Data4: -1089591199
-  Banks:
-  - {fileID: -6647798358694342193}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
 --- !u!114 &4324593864748127832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -534,4 +477,31 @@ MonoBehaviour:
   - {fileID: 4324593864748127832}
   MinDistance: 1
   MaxDistance: 20
-  Length: 600
+  Length: 500
+--- !u!114 &9150713709428858962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Teste
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: snapshot:/Teste
+  Guid:
+    Data1: 1651073333
+    Data2: 1197386470
+    Data3: -1392684922
+    Data4: 482103764
+  Banks:
+  - {fileID: -6647798358694342193}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
