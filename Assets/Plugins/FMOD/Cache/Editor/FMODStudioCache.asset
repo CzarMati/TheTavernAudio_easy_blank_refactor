@@ -55,10 +55,10 @@ MonoBehaviour:
   Path: Assets/FMOD Studio/AllGood Zapis/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639039220502839758
+  lastModified: 639039280209547431
   FileSizes:
   - Name: Desktop
-    Value: 1866
+    Value: 1972
   Exists: 1
 --- !u!114 &-6693314253664411234
 MonoBehaviour:
@@ -101,10 +101,10 @@ MonoBehaviour:
   Path: Assets/FMOD Studio/AllGood Zapis/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639039220502820222
+  lastModified: 639039280209528120
   FileSizes:
   - Name: Desktop
-    Value: 3312
+    Value: 4034
   Exists: 1
 --- !u!114 &-5890595715823175704
 MonoBehaviour:
@@ -339,10 +339,10 @@ MonoBehaviour:
   Path: Assets/FMOD Studio/AllGood Zapis/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639039198398215903
+  lastModified: 639039228320004294
   FileSizes:
   - Name: Desktop
-    Value: 105152
+    Value: 104960
   Exists: 1
 --- !u!114 &-268283633535004127
 MonoBehaviour:
@@ -397,14 +397,15 @@ MonoBehaviour:
   - {fileID: -4177417375144234007}
   - {fileID: -5140197435272128845}
   - {fileID: 5309959270420594672}
-  - {fileID: 9150713709428858962}
+  - {fileID: 8388833215281362127}
+  - {fileID: 7870186795759114977}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6647798358694342193}
   StringsBanks:
   - {fileID: -7007987892325362052}
   cacheVersion: 131856
-  cacheTime: 639039220502839758
+  cacheTime: 639039280209547431
   SerializableEventsDict:
   - key: event:/Ambients/Ambient_tavern
     index: 0
@@ -422,8 +423,10 @@ MonoBehaviour:
     index: 6
   - key: event:/Footsteps/Footsteps
     index: 7
-  - key: snapshot:/Teste
+  - key: snapshot:/Outside
     index: 8
+  - key: snapshot:/Inside
+    index: 9
 --- !u!114 &4324593864748127832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -478,7 +481,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 500
---- !u!114 &9150713709428858962
+--- !u!114 &7870186795759114977
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -488,14 +491,41 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/Teste
+  m_Name: snapshot:/Inside
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: snapshot:/Teste
+  Path: snapshot:/Inside
   Guid:
-    Data1: 1651073333
-    Data2: 1197386470
-    Data3: -1392684922
-    Data4: 482103764
+    Data1: 1999024420
+    Data2: 1297570768
+    Data3: 1436471445
+    Data4: 112691239
+  Banks:
+  - {fileID: -6647798358694342193}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &8388833215281362127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Outside
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: snapshot:/Outside
+  Guid:
+    Data1: 245899185
+    Data2: 1137019939
+    Data3: -1844040272
+    Data4: 505821831
   Banks:
   - {fileID: -6647798358694342193}
   IsStream: 0

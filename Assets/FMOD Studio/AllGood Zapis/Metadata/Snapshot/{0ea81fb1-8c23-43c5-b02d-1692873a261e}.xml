@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Snapshot" id="{0ea81fb1-8c23-43c5-b02d-1692873a261e}">
+		<property name="name">
+			<value>Outside</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{b8da6bd3-75f6-4758-9fe7-863f2f34c70e}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{f3d533d5-0b34-4345-a45f-96dcda713dc2}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{3a1d2b25-29b7-489a-8afb-b76dcb41f4ce}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{a303ff9f-152d-44b9-b0c6-d681576f660d}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{d74cb89a-c646-4c42-b602-36c7a86cb998}</destination>
+		</relationship>
+		<relationship name="snapshotProperties">
+			<destination>{cd8ff1ec-89d6-4cc2-9713-c6a87bac64c2}</destination>
+		</relationship>
+		<relationship name="snapshotTracks">
+			<destination>{90a1dfcb-b1b0-4db9-9982-76687c1cab82}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{f3d533d5-0b34-4345-a45f-96dcda713dc2}" />
+	<object class="MarkerTrack" id="{3a1d2b25-29b7-489a-8afb-b76dcb41f4ce}" />
+	<object class="Timeline" id="{a303ff9f-152d-44b9-b0c6-d681576f660d}" />
+	<object class="SnapshotMasterTrack" id="{d74cb89a-c646-4c42-b602-36c7a86cb998}" />
+	<object class="SnapshotProperty" id="{cd8ff1ec-89d6-4cc2-9713-c6a87bac64c2}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-20</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{fc6b0b96-9287-40e5-b7cc-caef79a77ace}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{90a1dfcb-b1b0-4db9-9982-76687c1cab82}">
+		<relationship name="mixerStrip">
+			<destination>{fc6b0b96-9287-40e5-b7cc-caef79a77ace}</destination>
+		</relationship>
+	</object>
+</objects>

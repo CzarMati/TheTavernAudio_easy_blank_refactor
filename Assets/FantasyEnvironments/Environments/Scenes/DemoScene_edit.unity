@@ -2597,10 +2597,10 @@ MonoBehaviour:
   snapshotActivated: 0
   outsideSnapshot:
     Guid:
-      Data1: 849331537
-      Data2: 1233143793
-      Data3: 1510570402
-      Data4: -1089591199
+      Data1: 245899185
+      Data2: 1137019939
+      Data3: -1844040272
+      Data4: 505821831
     Path: snapshot:/Outside
 --- !u!114 &613997995
 MonoBehaviour:
@@ -2649,7 +2649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f4ed2e91580f4459a40df16f56ba56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VCA
-  globalMuteActive: 1
+  globalMuteActive: 0
   musicMuteActive: 0
   tavernMuteActive: 0
   outsideMuteActive: 0

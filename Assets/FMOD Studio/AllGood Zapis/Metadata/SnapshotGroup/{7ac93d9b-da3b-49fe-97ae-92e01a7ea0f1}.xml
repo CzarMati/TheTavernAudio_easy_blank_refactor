@@ -2,8 +2,9 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="SnapshotList" id="{7ac93d9b-da3b-49fe-97ae-92e01a7ea0f1}">
 		<relationship name="items">
-			<destination>{329fc551-47f1-4980-a279-095a61280ebf}</destination>
-			<destination>{05eefbef-94ea-404b-ac8b-1820952a025c}</destination>
+			<destination>{62696135-aae6-475e-8650-fdacd451bc1c}</destination>
+			<destination>{0ea81fb1-8c23-43c5-b02d-1692873a261e}</destination>
+			<destination>{7726b124-5bd0-4d57-95d0-9e552788b706}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{b8da6bd3-75f6-4758-9fe7-863f2f34c70e}</destination>
