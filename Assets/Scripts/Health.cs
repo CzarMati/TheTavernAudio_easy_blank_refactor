@@ -14,6 +14,9 @@ public class Health : MonoBehaviour
     private FMOD.Studio.EventInstance healthSnapshotInstance;
     public EventReference healthSnapshot;
 
+    private FMOD.Studio.EventInstance healthEventInstance;
+    public EventReference healthEvent;
+
     void Update()
     {
         // Sprawdza, czy klawisz "K" został naciśnięty.
@@ -32,6 +35,8 @@ public class Health : MonoBehaviour
     {
         if (activate)
         {
+            healthEventInstance = RuntimeManager.CreateInstance(healthEvent);
+            healthEventInstance.start();
             healthSnapshotInstance = RuntimeManager.CreateInstance(healthSnapshot);
             healthSnapshotInstance.start();
         }
@@ -41,6 +46,8 @@ public class Health : MonoBehaviour
             {
                 healthSnapshotInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
                 healthSnapshotInstance.release();
+                healthEventInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+                healthEventInstance.release();
             }
         }
         // Aktualizuje stan.

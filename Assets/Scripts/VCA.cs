@@ -37,7 +37,7 @@ public class VCA : MonoBehaviour
 
 
         // Ustawia początkową głośność.
-        globalVCA.setVolume(DecibelToLinear(-100));
+        globalVCA.setVolume(DecibelToLinear(0));
     }
 
     void Update()
@@ -58,6 +58,10 @@ public class VCA : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.P))
         {
             ToggleMute(outsideVCA, ref outsideMuteActive);
+        }
+        if (Input.GetKeyDown(KeyCode.Y))
+        {
+            ToggleMute(sfxVCA, ref sfxMuteActive);
         }
     }
 

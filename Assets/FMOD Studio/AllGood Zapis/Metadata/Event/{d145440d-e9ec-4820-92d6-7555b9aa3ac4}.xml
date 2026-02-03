@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{d145440d-e9ec-4820-92d6-7555b9aa3ac4}">
 		<property name="name">
-			<value>Doors</value>
+			<value>SFX_Doors</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -540,7 +540,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-3</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{9caaa693-847b-4737-af93-e295b42d5347}">
@@ -548,7 +548,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-3</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{3356bfe9-3509-485d-81fd-726789be9c6e}">

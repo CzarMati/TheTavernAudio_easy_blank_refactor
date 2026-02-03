@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{7f4c1d87-958c-484c-8984-9015907c3262}">
+		<property name="assetPath">
+			<value>Fireplace/Fireplace_Off_3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>2.4038541666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{81098cf5-ffd3-460b-b27d-ce9882e786f0}</destination>
+		</relationship>
+	</object>
+</objects>
